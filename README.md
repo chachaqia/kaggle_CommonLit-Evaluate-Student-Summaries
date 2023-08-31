@@ -5,22 +5,6 @@ In our project, we will try to use several method to build some modles and find 
 
 [Competition from Kaggle](https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries)
 
-### Project allocation
-- z5335682 Qiaoyuan Wen: 
-- - Data preprocessing
-- - Support vector regression
-- - Random Forest
-- - Neural Network
-- - report: Result, Discussion 
-- z5407467 Rundong Li:
-- - K-Nearest Neighbor regression
-- - Kernal ridge regression
-- - XGBoost regression
-- - report: Methods, Discussion, Conclusion
-- z5341269 Han Lin:
-- - SGD regression
-- - report: Introduction, Methods(preprocessing)
-
 
 ## Code List 
 - pre_processing_part1.py
@@ -72,6 +56,7 @@ Step2. <br/>Clean the natural language in summaries_train.csv and prompts.csv. <
 ```python
 python pre_processing_part1.py
 ```
+
 
 Step3. <br/>Split the clean_data.csv. Divide the data into new training and testing sets.
 <br/>Calculate the TF-IDF and aim to convert a collection of text documents into numerical feature vectors, enabling machine learning algorithms to work with text data.
